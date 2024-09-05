@@ -4,7 +4,7 @@
 
 ## [자료구조 - Data Structures with Python 강의 정리 목록 (신찬수 교수님)](https://www.youtube.com/playlist?list=PLsMufJgu5933ZkBCHS7bQTx0bncjwi4PK)
 - 출처 : https://www.youtube.com/playlist?list=PLsMufJgu5933ZkBCHS7bQTx0bncjwi4PK
-01. [자료구조와 알고리즘](../algorithm_study/0000-study/01.자료구조와%20알고리즘.md)
+01. [자료구조와 알고리즘](https://github.com/rowanna/algorithm_study/blob/main/0000-study/01.%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%99%80%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
 02. 알고리즘 시간복잡도1
 03. 알고리즘 시간복잡도2
 04. 알고리즘 시간복잡도 BigO
