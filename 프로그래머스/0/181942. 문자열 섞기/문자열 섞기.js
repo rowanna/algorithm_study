@@ -1,8 +1,4 @@
 function solution(str1, str2) {
-    var answer = '';
-    
-    for(let i=0; i<str1.length; i ++) {
-        answer = answer + str1[i] + str2[i]
-    }
-    return answer;
+ 
+    return [...str1].map((el, idx)=>el + str2[idx]).join('');
 }
