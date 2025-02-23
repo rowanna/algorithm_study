@@ -1,7 +1,10 @@
 function solution(ineq, eq, n, m) {
-    let answer =  ineq === '<' ? n < m : n > m;
-    if(eq === '=' && !answer) {
-        answer = n === m
+
+    const operation = {
+        '>=' : (n,m) => n >= m,
+        '<=' : (n,m) => n <= m,
+        '>!' : (n,m) => n > m,
+        '<!' : (n,m) => n < m,
     }
-    return answer ? 1 : 0;
+    return operation[ineq + eq](n,m) ? 1 : 0;
 }
