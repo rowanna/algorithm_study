@@ -1,10 +1,8 @@
 function solution(start_num, end_num) {
     const answer = [];
-    const loopNumber = start_num-end_num
-    for(let i = 0; i <= loopNumber;i++) {
+    for(let i = start_num; i >= end_num;i--) {
+        answer.push(i)
 
-        answer.push(start_num)
-        start_num -=1
     }
     return answer;
 }
