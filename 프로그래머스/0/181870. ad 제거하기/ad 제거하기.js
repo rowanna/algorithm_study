@@ -1,4 +1,4 @@
 function solution(strArr) {
-    
-    return strArr.map((v,idx) => v.includes('ad') ? '' : v ).filter(v=> v !== '' );
+
+    return strArr.filter((v) => !v.includes('ad'))
 }
